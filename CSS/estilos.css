@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'oswald';
+  src: url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+}
+
+
+
+
+
+body{
+  background-color: white;
+  color: orange;
+  font-family:'oswald';
+}
+header{
+    background-color: black;
+}
+header .menu{
+
+  margin: 2%;
+  text-align: center;
+}
+header .menu .logo{
+  font-size: 4em;
+  color:#53ca98;
+}
+header .menu ul {
+  margin: 0%;
+}
+header .menu .contactos .accordion{
+  background-color: black;}
+
+header .menu .contactos .accordion-item{
+position: relative;
+top: 2vh;
+}
+header .menu .contactos #flush-headingOne{
+  background-color: black;
+  color: #53ca98
+}
+header .menu .contactos .accordion-item button {
+  width: 100%;
+  background-color: black;
+  color: #69d0a3;
+}
+header .menu .contactos .accordion-item .accordion-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .menu .contactos .accordion-item .accordion-body a li img{
+  padding: 1%;
+  width: 30%;
+}
+header .menu ul a li{
+  display: inline-block;
+  color:#8edcb9;
+}
+header .menu ul a li:hover{
+  color:#9affff;
+}
+header .menu .row #menu {
+  position: relative;
+  top:4vh ;
+}
+
+
+/**CARRUSEL HEADER **/
+#carouselExampleCaptions{
+  height:60vh;
+}
+#carouselExampleCaptions .carousel{
+  height: 60vh;
+}
+#carouselExampleCaptions .carousel .slide{
+
+  height: 60vh;
+}
+.carrusel .carousel-item {
+  height: 60vh;
+
+}
+.carrusel .carousel-item div {
+  font-size: 1.5em;
+    color:#666666;
+}
+/**NAV **/
+nav{
+  margin: 0% 0% 10% 0;
+}
+nav .container  h1 {
+  text-align: center;
+  margin:10% 0%;
+  color:#69d0a3;
+  text-decoration: underline;
+}
+nav .container  ul li{
+  text-align: center;
+  display: inline;
+  font-size: 1.7em;
+
+}
+nav .container  ul li a{
+  text-decoration: none;
+    color:#ff6961;
+}
+nav .container  ul li a:hover{
+  color: #f3aacb;
+}
+
+
+/**SECTION**/
+section .container-fluid .row h1{
+  text-align: center;
+  margin: 2% 0% 4% 0%;
+}
+section .card{
+  box-sizing: border-box;
+}
+section .card:hover{
+  border: solid 1px black;
+}
+section .card img{
+  width: 100%;
+  height: 30vh;
+}
+section .card-body{
+  display: flex;
+color: #272727;
+}
+section .card-body a{
+height: 10vh;
+}
+section .card-body a img{
+  width: 15%;
+  height: auto;
+}
+/**Titulo de NOVEDADES**/
+section .titulo-n{
+  background-color: black;
+  color:#53ca98;
+  padding: 1%;
+
+}
+/**CARRUSEL DE NOVEDADES **/
+.centrado {
+  padding: 1% 6%;
+}
+.card{
+  margin:1%;
+}
+/**JUEGO **/
+section .juego{
+  color:#009d71;
+  text-align: center;
+margin-top: 10%;
+margin-bottom: 10%;
+}
+section .juego .a,section .juego .b, section .juego .c, section .juego .d{
+background-image: url(../imagenes/RD1.jpg);
+width: 100%;
+height: 60vh;
+}
+section .juego .col-3{
+    box-sizing: border-box;
+  margin: 0% 1%;
+  padding: 0%;
+}
+section .juego div{
+  box-sizing: border-box;
+}
+section .juego .a:hover, section .juego .b:hover, section .juego .c:hover, section .juego .d:hover{
+  border: solid #ff6961 1px;
+}
+section .juego .a:visited{
+  display: none;
+}
+
+
+/**Aside**/
+aside{
+  color: #009d71;
+  margin:5%;
+  text-align: justify;
+}
+aside p{
+  color:#ff6961;
+}
+aside h5{
+text-align: center;
+  color:#ff6961
+}
+/**FOOTER**/
+footer{
+  width: 100%;
+  height: 20vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#414850;
+color: black;
+}
+
+/**Tablet**/
+
+@media (max-width:768px) {
+  header .menu .logo{
+    font-size: 3em;
+  }
+  nav .container  h1 {
+    font-size: 2em;
+  }
+  nav .container  ul li{
+    font-size: 1.5em;
+  }
+  section .juego .a,section .juego .b, section .juego .c, section .juego .d{
+    height: 40vh;
+  }
+}
+@media (max-width:500px) {
+  header .menu .logo{
+    font-size: 2em;
+  }
+  header .menu .row{
+    display: inline;
+  }
+  #carouselExampleCaptions{
+    height:40vh;
+  }
+  #carouselExampleCaptions .carousel{
+    height: 40vh;
+  }
+  #carouselExampleCaptions .carousel .slide{
+
+    height: 40vh;
+  }
+  .carrusel .carousel-item {
+    height: 40vh;
+
+  }
+  .carrusel .carousel-item div {
+    font-size: 1em;
+      color:#666666;
+  }
+  nav .container  h1 {
+    font-size: 2em;
+  }
+  nav .container  ul li{
+    font-size: 1em;
+  }
+  section .juego .a,section .juego .b, section .juego .c, section .juego .d{
+    width: 75%;
+    margin: 1%;
+  }
+}
